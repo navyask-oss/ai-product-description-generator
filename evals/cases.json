@@ -1,0 +1,23 @@
+[
+  {
+    "productName": "Die Cut Vinyl Sticker",
+    "productNotes": "Weatherproof custom sticker with matte finish for laptops and bottles",
+    "category": "Stickers",
+    "tone": "Playful",
+    "requiredWords": ["weatherproof", "custom", "sticker"]
+  },
+  {
+    "productName": "Holographic Label Roll",
+    "productNotes": "Shiny label roll for candle jars, small packaging, and brand launches",
+    "category": "Labels",
+    "tone": "Luxury",
+    "requiredWords": ["holographic", "label", "brand"]
+  },
+  {
+    "productName": "Mailer Box",
+    "productNotes": "Recyclable box for shipping subscription products",
+    "category": "Packaging",
+    "tone": "Professional",
+    "requiredWords": ["recyclable", "shipping", "box"]
+  }
+]
