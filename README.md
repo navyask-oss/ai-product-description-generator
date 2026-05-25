@@ -35,7 +35,7 @@ ai-product-description-generator/
 |-- api/        Go REST API
 |-- prompts/    Versioned prompt files
 |-- evals/      Prompt quality test suite
-|-- docs/       Learning and delivery plan
+|-- docs/       Learning plan and archived UI prototype
 |-- Dockerfile
 |-- docker-compose.yml
 `-- README.md
@@ -127,3 +127,7 @@ Set secrets for `DATABASE_URL`, `ANTHROPIC_API_KEY`, or `OPENAI_API_KEY` in GCP 
 - `.env` files are ignored by Git.
 - Raw uploaded images are not persisted by default.
 - Rate limiting protects cost and abuse risk.
+
+## Prototype Note
+
+The first UI exploration is archived at `docs/prototypes/ProductDescriptionGenerator.jsx`. The production-oriented version routes AI calls through the Go API so provider keys never live in the browser.
